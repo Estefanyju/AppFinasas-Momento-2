@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta principal -->
+    <color name="primary">#1B4965</color>
+    <color name="primary_dark">#143752</color>
+    <color name="primary_light">#CAE9FF</color>
+    <color name="secondary">#5FA8D3</color>
+    <color name="background_app">#F0F4F8</color>
+    <color name="surface_card">#FFFFFFFF</color>
+    <color name="divider">#E2E8F0</color>
+
+    <!-- Texto -->
+    <color name="text_primary">#1D3557</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_on_primary">#FFFFFFFF</color>
+
+    <!-- Ingresos -->
+    <color name="ingreso">#2D6A4F</color>
+    <color name="ingreso_dark">#1B4332</color>
+    <color name="ingreso_light">#D8F3DC</color>
+    <color name="ingreso_surface">#F1FAF3</color>
+    <color name="ingreso_icon_bg">#95D5B2</color>
+
+    <!-- Gastos -->
+    <color name="gasto">#BC4749</color>
+    <color name="gasto_dark">#9B2226</color>
+    <color name="gasto_light">#FFE5E5</color>
+    <color name="gasto_surface">#FFF5F5</color>
+    <color name="gasto_icon_bg">#F4A3A5</color>
+
+    <!-- FAB y acentos -->
+    <color name="fab_background">#1B4965</color>
+    <color name="fab_ripple">#5FA8D3</color>
+</resources>

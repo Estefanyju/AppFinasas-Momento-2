@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_sm"
+    app:cardBackgroundColor="@color/surface_card"
+    app:cardCornerRadius="@dimen/corner_radius_md"
+    app:cardElevation="4dp"
+    app:strokeColor="@color/divider"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:id="@+id/itemRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_item_ingreso"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/item_min_height"
+        android:orientation="horizontal"
+        android:padding="@dimen/spacing_md">
+
+        <FrameLayout
+            android:id="@+id/iconContainer"
+            android:layout_width="@dimen/item_icon_size"
+            android:layout_height="@dimen/item_icon_size"
+            android:background="@drawable/bg_icon_ingreso">
+
+            <ImageView
+                android:id="@+id/iconTipo"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_ingreso"
+                tools:ignore="ContentDescription" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_md"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textConcepto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Almuerzo" />
+
+            <TextView
+                android:id="@+id/textTipo"
+                style="@style/BadgeIngreso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xs"
+                tools:text="Ingreso" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textMonto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:text="+ S/ 25.00"
+            tools:textColor="@color/ingreso" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

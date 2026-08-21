@@ -1,0 +1,32 @@
+CARPETA LISTA PARA SUBIR A GITHUB
+================================
+
+Esta carpeta tiene SOLO los 68 archivos necesarios del proyecto
+(sin carpetas build, .gradle ni .idea).
+
+OPCION A - RECOMENDADA (PowerShell)
+-----------------------------------
+1. Abre PowerShell
+2. Ejecuta:
+
+   cd "c:\Users\Shirley\Desktop\AppFinansas-Subir-GitHub"
+   git remote add origin https://github.com/TU_USUARIO/AppFinasas-Momento-2.git
+   git push -u origin main
+
+   (Reemplaza TU_USUARIO por tu usuario de GitHub)
+
+3. Si pide contraseña, usa un Personal Access Token de GitHub.
+
+
+OPCION B - Subir por la web de GitHub
+-------------------------------------
+NO arrastres toda la carpeta AppFinansas original.
+
+Puedes arrastrar el CONTENIDO de esta carpeta (68 archivos)
+en: GitHub > AppFinasas-Momento-2 > Add file > Upload files
+
+
+IMPORTANTE
+----------
+- Completa tu nombre en README.md
+- Agrega 2 capturas en docs/screenshots/

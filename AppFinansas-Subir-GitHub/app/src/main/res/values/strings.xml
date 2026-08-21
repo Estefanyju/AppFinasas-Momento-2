@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">App Finansas</string>
+
+    <string name="titulo_principal">Mis Finanzas</string>
+    <string name="subtitulo_resumen">Control de ingresos y gastos</string>
+    <string name="subtitulo_historial">Historial de transacciones</string>
+    <string name="label_balance">Balance total</string>
+    <string name="hint_concepto_ejemplo">Ej: Almuerzo, Pago de internet</string>
+    <string name="hint_monto_ejemplo">Ej: 25.50</string>
+    <string name="titulo_nueva">Nueva transacción</string>
+    <string name="titulo_editar">Editar transacción</string>
+    <string name="titulo_eliminar">Eliminar transacción</string>
+
+    <string name="hint_concepto">Concepto (ej. Almuerzo)</string>
+    <string name="hint_monto">Monto</string>
+    <string name="label_tipo">Tipo de movimiento</string>
+
+    <string name="tipo_ingreso">Ingreso</string>
+    <string name="tipo_gasto">Gasto</string>
+
+    <string name="accion_guardar">Guardar</string>
+    <string name="guardando">Guardando…</string>
+    <string name="accion_eliminar">Eliminar</string>
+    <string name="accion_cancelar">Cancelar</string>
+    <string name="descripcion_agregar">Agregar transacción</string>
+
+    <string name="resumen_ingresos">Ingresos: %1$s</string>
+    <string name="resumen_gastos">Gastos: %1$s</string>
+    <string name="resumen_balance">Balance: %1$s</string>
+
+    <string name="mensaje_lista_vacia">No hay transacciones registradas.\nToca + para agregar una.</string>
+    <string name="mensaje_guardado">Transacción guardada</string>
+    <string name="mensaje_actualizado">Transacción actualizada</string>
+    <string name="mensaje_eliminado">Transacción eliminada</string>
+    <string name="mensaje_confirmar_eliminar">¿Deseas eliminar esta transacción?</string>
+
+    <string name="error_concepto_vacio">Ingresa un concepto</string>
+    <string name="error_concepto_corto">El concepto debe tener al menos %1$d caracteres</string>
+    <string name="error_monto_vacio">Ingresa un monto</string>
+    <string name="error_monto_cero">El monto debe ser mayor a 0</string>
+    <string name="error_monto_invalido">Ingresa un monto válido mayor a 0</string>
+    <string name="error_transaccion_no_encontrada">Transacción no encontrada</string>
+    <string name="error_cargar_firestore">Error al cargar datos de Firebase</string>
+    <string name="error_guardar_firestore">Error al guardar en Firebase</string>
+    <string name="error_guardar_timeout">Tiempo agotado. Revisa internet y las reglas de Firestore en Firebase Console.</string>
+    <string name="error_eliminar_firestore">Error al eliminar en Firebase</string>
+    <string name="helper_concepto">Mínimo 3 caracteres (ej. Almuerzo)</string>
+    <string name="helper_monto">Debe ser mayor a S/ 0.00</string>
+</resources>
